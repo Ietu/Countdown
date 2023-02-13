@@ -1,0 +1,58 @@
+  @font-face {
+    src: url('./Connection3.otf');
+    font-family: 'ConnectionIi';
+  }
+  
+  @font-face {
+    src: url('./November3.ttf');
+    font-family: 'November';
+  }
+  
+  body {
+    font-family: 'ConnectionIi';
+    background: #00040D;
+    position: relative;
+    user-select: none;
+    max-height: 100%;
+    overflow: hidden;
+    font-size: 60px;
+    color: #E0E1E4;
+    display: flex;
+    margin: 0px;
+  }
+  
+  #entry {
+    background: #00040D;
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #entry-center {
+    margin: auto;
+    width: 550px;
+    height: 65px;
+  }
+  
+  p:first-child {
+    text-align: center;
+    cursor: pointer;
+    margin: 0px;
+  }
+  
+  .countdown {
+    font-family: 'November';
+    transition: font-size 3s;
+    text-align: center;
+    margin: auto;
+    width: 90vw;
+  }
+  
+  .scale {
+    font-size: 11vw;
+  }
+  
+  .hidden {
+    display: none;
+  }
